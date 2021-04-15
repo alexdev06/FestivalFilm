@@ -1,0 +1,146 @@
+body {
+    padding-top: 50px;
+    box-shadow: 0 0 0 200px rgba(0,0,255,0.3);
+    background-color: #111111;
+    color: #FFF;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+.navbar, .bloc-intro, footer {
+    background-color: #111111;
+}
+
+hr {
+    background-color: #FFF;
+}
+
+.blockquote {
+    font-size: 1em;
+}
+
+
+/* Header */
+
+.jumbotron {
+  
+    background: url('../images/paris-pink2.jpg') no-repeat fixed ; 
+    font-weight: bold;
+    color: #FFF;
+}
+
+.titre-principal, .lead {
+    font-weight: bold;
+    color: #FFF;
+}
+
+@media screen and (max-width: 576px)
+{
+
+  h1 {
+        font-size: 2.2em !important;
+        text-align: center;
+  }
+
+  p.lead {
+        font-size: 0.7em;
+  }
+  .jumbotron {
+        margin-top: 50px !important;
+  }
+}
+
+/* Accueil */
+
+.annonce-programmation {
+    font-size: 1.7em;
+}
+
+ /* Liens */
+
+a {
+    color: #FF2768;
+}
+
+a:active, a:hover {
+    color: #1DC690;
+}
+
+/* Barre de navigation */
+
+.navbar {
+    border-bottom: solid 2px  #FF2768;
+}
+
+.fa.fa-navicon {
+    color: white;
+}
+
+.nav-link {
+    color: #FFF !important;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: #FF2768 !important;
+}
+
+.actual {
+    color: #FF2768 !important;
+}
+
+.date-news {
+    font-style: italic;
+}
+
+/* Structure éléments Bootstrap de type Card*/
+
+.btn, .card-header {
+    background-color: #111111;
+    border: none;
+}
+
+.card-header, .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.card-body {
+    background-color: #111111;
+}
+
+.card-footer {
+    background-color: #111111;
+}
+
+
+/* Boutons */
+
+.btn-primary {
+    background-color: #FF2768 ;
+}
+
+.btn-primary:hover {
+    background-color: #1DC690;
+}
+
+.btn-primary:active {
+    background-color: #1DC690 !important;
+    border-color: #1DC690 !important;
+    box-shadow: none;
+}
+
+.btn-primary:focus {
+    border-color: #FF2768 !important;
+    box-shadow: none;
+}
+
+/* Footer */
+
+.foot {
+    border-top: solid 1px #FF2768 ;
+    margin-top: 20px;
+}

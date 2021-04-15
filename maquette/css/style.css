@@ -1,0 +1,146 @@
+body {
+    padding-top: 50px;
+    box-shadow: 0 0 0 200px rgba(0,0,255,0.3);
+    background-color: #111111;
+    color: #FFF;
+  }
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+#programmation, #presentation, #actualites, #contact {
+    padding-top: 130px;
+}
+
+.foot {
+    margin-top: 250px;
+}
+
+a {
+    color: #FF2768;
+}
+
+a:active, a:hover, a:focus {
+    color: #1DC690;
+}
+
+.jumbotron {
+  
+  background: url('../images/paris-pink2.jpg') no-repeat fixed ; 
+  font-weight: bold;
+  color: #FFF;
+  
+}
+.titre-principal, .lead {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.acc-para {
+    font-size: 1.7em;
+}
+
+.btn, .card-header {
+    background-color: #111111;
+    border: none;
+}
+
+.fa.fa-navicon {
+    color: #FFF;
+}
+
+.card-header, .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.card-body {
+    background-color: #111111;
+}
+
+hr {
+    background-color: #FFF;
+}
+
+.card-footer {
+    background-color: #111111;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar, .bloc-intro, footer {
+    background-color: #111111;
+}
+
+.navbar {
+    border-bottom: solid 2px  #FF2768;
+}
+
+.btn-primary {
+    background-color: #FF2768 ;
+    border: #FF2768;
+}
+
+.btn-primary:hover {
+    background-color: #1DC690;
+    border: #1DC690 !important;
+}
+
+.btn-primary:active {
+    background-color: #1DC690 !important;
+    border: #1DC690 ;
+    box-shadow: #1DC690  !important;
+}
+
+.nav-link {
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* Bloc news accueil*/
+
+.news {
+    background-color: rgb(170, 196, 206);
+    background-clip: content-box;
+}
+
+.news h3 {
+    padding-left: 5px;
+}
+
+.news p {
+    font-size: 0.8em;
+  
+}
+
+.news a {
+    color: grey;
+    font-style: italic;
+}
+
+.news h4 {
+    font-size: 1.2em;
+}
+
+.date-news {
+    font-style: italic;
+}
+
+.list-group-flush {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    background-color: rgb(170, 196, 206);
+}
+
+
